@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayan AI Background</title>
+    <style>
+        /* Reset body margin and padding */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Set background image */
+        .background {
+            background-image: url('ezgif-5-61fc6a1938.jpg'); /* Replace with actual file path */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh; /* Full viewport height */
+            width: 100vw; /* Full viewport width */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        /* Add overlay to improve text readability */
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="overlay">
+            <h1>Welcome to My Website</h1>
+            <p>Experience the fusion of ancient Mayan art and futuristic AI design.</p>
+        </div>
+    </div>
+</body>
+</html>
